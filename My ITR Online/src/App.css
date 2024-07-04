@@ -1,0 +1,127 @@
+.width-img {
+  width: 100%;
+  max-width: 170px;
+}
+
+.content-max-width {
+  max-width: 100%;
+  text-align: justify;
+}
+
+.card-width {
+  width: 40rem;
+}
+.fullHeight {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.card-height {
+  height: auto;
+}
+
+.button-bg {
+  background-color: #ffca2c;
+  color: black;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 5px 20px;
+  border: none;
+}
+
+.colorGray {
+  color: gray;
+}
+
+.button-blue {
+  background-color: #2278ba;
+  color: white;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 5px 20px;
+  border: none;
+}
+
+.mtop {
+  margin-top: 5rem;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 767.98px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .fullHeight {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card-height {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .content-max-width {
+    width: 100%;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .justify-content-center {
+    justify-content: center;
+  }
+
+  .button-bg,
+  .button-blue {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .fullHeight {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card-height {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .content-max-width {
+    width: 100%;
+  }
+
+  .button-bg,
+  .button-blue {
+    width: auto;
+  }
+}
+
+/* .paddingTop {
+  padding-top: 5rem;
+} */
+
+.btn-bg {
+  background-color: #006d07;
+}
+
+.heading-text{
+  font-size: 3.5rem;
+  padding: 5px;
+  font-weight: bolder;
+  color: black ;
+
+  background-color: #FFC107;
+}
+
+.card-design {
+  
+}
